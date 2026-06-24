@@ -1,0 +1,137 @@
+body{
+    background: #FFF7ED;
+    color: #2D3250;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* الهيدر */
+.header{
+    background: #2D3250;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1{
+    color: #FFF7ED;
+    margin-bottom: 15px;
+}
+
+.header a{
+    color: #FFF7ED;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.header a:hover{
+    color: #F97316;
+}
+
+/* القسم الرئيسي */
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #F97316;
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.4);
+}
+
+.hero h2{
+    margin-top: 20px;
+    color: #2D3250;
+}
+
+.hero h3{
+    color: #F97316;
+}
+
+/* الأقسام */
+.section{
+    width: 80%;
+    max-width: 900px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* العناوين */
+.section h2{
+    color: #F97316;
+    border-bottom: 2px solid #F97316;
+    padding-bottom: 10px;
+}
+
+/* المهارات */
+progress{
+    width: 80%;
+    height: 20px;
+    accent-color: #F97316;
+}
+
+/* المشاريع */
+#projects h3{
+    color: #2D3250;
+}
+
+#projects a{
+    display: inline-block;
+    background: #F97316;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* الاقتباس */
+blockquote{
+    background: #FFF7ED;
+    border-right: 5px solid #F97316;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* نموذج التواصل */
+input,
+textarea{
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    background: #F97316;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background: #2D3250;
+}
+
+/* الفوتر */
+footer{
+    background: #2D3250;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.section{
+    border: 1px solid #F97316;
+}
